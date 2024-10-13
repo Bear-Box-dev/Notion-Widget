@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Button</title>
+  <style>
+    .discord-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #7289DA;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 12px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .discord-button:hover {
+      background-color: #5B6EAE;
+    }
+
+    .discord-button i {
+      font-size: 24px;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://discord.com" class="discord-button">
+    <i class="fab fa-discord"></i>
+    Join our Discord
+  </a>
+
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</body>
+</html>
