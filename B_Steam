@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steam Button</title>
+
+  <!-- Load Inter Font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Load Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <style>
+    /* Apply Inter font to the body */
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Steam button styling */
+    .steam-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #1b2838;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 12px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .steam-button:hover {
+      background-color: #0e1620;
+    }
+
+    .steam-button i {
+      font-size: 24px;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Steam Button -->
+  <a href="https://steamcommunity.com/yoursteamprofile" class="steam-button">
+    <i class="fab fa-steam"></i>
+    Visit our Steam
+  </a>
+</body>
+</html>
